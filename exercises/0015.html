@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<SCRIPT language="JavaScript" src="validate.js">
+ </script>
+
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+
+<link rel=stylesheet type="text/css" href="../css/rwt.css">
+
+<title>Telling age</title>
+</HEAD>
+<body>
+<h3 align=center>Telling age</h3> 
+
+<b>Directions</b>: Translate each sentence into Russian. After you translate a sentence, press on the <b>Tab</b> key to check your answer. Click on the <b>?</b> button to see one possible correct translation.
+<hr>
+<form>
+<ol>
+
+<li>Vera is 3 years old.<br>
+	<input name="item1" size=20
+	onchange="validate(this, 'Вере 3 года')">.
+	<input type="button" value="?" 
+	onclick="(form.item1.value = 'Вере 3 года')">
+<li>Ivan is 16.<br>
+	<input name="item2" size=20
+	onchange="validate(this, 'Ивану 16 лет')">.
+	<input type="button" value="?" 
+	onclick="(form.item2.value = 'Ивану 16 лет')">
+
+<li>Vasilij is 21.<br>
+	<input name="item3" size=20
+	onchange="validate(this, 'Василию 21 год')">.
+	<input type="button" value="?" 
+	onclick="(form.item3.value = 'Василию 21 год')">
+
+<li>Mariya is 9.<br>
+	<input name="item4" size=20
+	onchange="validate(this, 'Марии 9 лет')">.
+	<input type="button" value="?" 
+	onclick="(form.item4.value = 'Марии 9 лет')">
+
+<li>Ivan is 24.<br>
+	<input name="item5" size=20
+	onchange="validate(this, 'Ивану 24 года')">.
+	<input type="button" value="?" 
+	onclick="(form.item5.value = 'Ивану 24 года')">
+
+<li>How old are you?<br>
+	<input name="item6" size=20
+	onchange="validate(this, 'Сколько вам лет')">?
+	<input type="button" value="?" 
+	onclick="(form.item6.value = 'Сколько вам лет')">
+
+<li>How old is she?<br>
+	<input name="item7" size=20
+	onchange="validate(this, 'Сколько ей лет')">?
+	<input type="button" value="?" 
+	onclick="(form.item7.value = 'Сколько ей лет')">
+
+<li>We are only 12 years old.<br>
+	<input name="item8" size=20
+	onchange="validate(this, 'Нам только 12 лет')">.
+	<input type="button" value="?" 
+	onclick="(form.item8.value = 'Нам только 12 лет')">
+
+</ol>
+<input type="reset" value="Clear answers">
+
+</form>
+<hr>
+</body>
+</html>

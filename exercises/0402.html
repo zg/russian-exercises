@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<SCRIPT language="JavaScript" src="validate.js">
+ </script>
+
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+
+<link rel=stylesheet type="text/css" href="../css/rwt.css">
+
+<title></title>
+</HEAD>
+<body>
+
+<h3 align=center>Начало, Lesson 2, Part 1, Workbook З. (0402)</h3> 
+
+<b>Directions</b>: The following addresses are mixed up. Re-write them in the proper order of city, street, house, and apartment. After you fill in a blank, click on the Tab key to check your answer.  Click on the <b>?</b> button to see the 
+  correct answer. 
+<hr>
+
+<form>
+<ol>
+<li>дом двенадцать, улица Пушкина, квартира 3, Новосибирск<br>
+ <input name="item1" size=70
+	onchange="validate(this, 'Новосибирск, улица Пушкина, дом двенадцать, квартира 3')">.
+	<input type="button" value="?" 
+	onclick="(form.item1.value = 'Новосибирск, улица Пушкина, дом двенадцать, квартира 3')">
+	
+<li>улица Толстого, квартира четыре, Белгород, дом девять<br>
+ <input name="item2" size=70
+	onchange="validate(this, 'Белгород, улица Толстого, дом девять, квартира четыре')">.
+	<input type="button" value="?" 
+	onclick="(form.item2.value = 'Белгород, улица Толстого, дом девять, квартира четыре')">
+	
+<li>квартира десять, Саратов, дом два, улица Липецкая<br>
+ <input name="item3" size=70
+	onchange="validate(this, 'Саратов, улица Липецкая, дом два, квартира десять')">.
+	<input type="button" value="?" 
+	onclick="(form.item3.value = 'Саратов, улица Липецкая, дом два, квартира десять')">
+	
+<li>дом пять, Иркутск, улица Тихвинская, квартира одиннадцать<br>
+ <input name="item4" size=70
+	onchange="validate(this, 'Иркутск, улица Тихвинская, дом пять,  квартира одиннадцать')">.
+	<input type="button" value="?" 
+	onclick="(form.item4.value = 'Иркутск, улица Тихвинская, дом пять,  квартира одиннадцать')">
+	
+
+</ol>
+<input type="reset" value="Clear answers">
+
+</form>
+<hr>
+</body>
+</html>

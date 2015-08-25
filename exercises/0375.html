@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<SCRIPT language="JavaScript" src="validate.js">
+ </script>
+
+<script language="JavaScript">
+function EvalSound(soundobj) {
+  var thissound=document.getElementById(soundobj);
+  thissound.play();
+}
+</script>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+
+<link rel=stylesheet type="text/css" href="../css/rwt.css">
+
+<title>Начало 1, Lesson 1, Part 3. Dictation</title>
+</HEAD>
+<body>
+
+
+<h3 align=center>Начало 1, Lesson 1, Part 3. Dictation. (0375)</h3> 
+
+<b>Directions</b>: Click on a number to hear a phrase in Russian. Type the phrase in the box on the right. Press on the <b>Tab</b> key to check your answer. Make several attempts to type the phrase correctly. Click on the <b>?</b> button to see the correct answer. Practice saying the Russian phrases out loud.
+
+<hr>
+
+<form>
+
+<a href="javascript:EvalSound('00195')">1.</a> <input name="item1" size=55
+	onchange="validate(this, 'Где письмо?')">.
+	<input type="button" value="?" 
+	onclick="(form.item1.value = 'Где письмо?')">
+	<br>
+<a href="javascript:EvalSound('00169')">2.</a> <input name="item2" size=55
+	onchange="validate(this, 'Она аспирантка?')">.
+	<input type="button" value="?" 
+	onclick="(form.item2.value = 'Она аспирантка?')">
+	<br>
+<a href="javascript:EvalSound('00181')">3.</a> <input name="item3" size=55
+	onchange="validate(this, 'Валя дома?')">.
+	<input type="button" value="?" 
+	onclick="(form.item3.value = 'Валя дома?')">
+	<br>
+<a href="javascript:EvalSound('00003')">4.</a> <input name="item4" size=55
+	onchange="validate(this, 'Как у вас дела?')">.
+	<input type="button" value="?" 
+	onclick="(form.item4.value = 'Как у вас дела?')">
+	<br>
+<a href="javascript:EvalSound('00036')">5.</a> <input name="item5" size=55
+	onchange="validate(this, 'Как тебя зовут?')">.
+	<input type="button" value="?" 
+	onclick="(form.item5.value = 'Как тебя зовут?')">
+	<br>
+<a href="javascript:EvalSound('00074')">6.</a> <input name="item6" size=55
+	onchange="validate(this, 'Меня зовут Марк.')">.
+	<input type="button" value="?" 
+	onclick="(form.item6.value = 'Меня зовут Марк.')">
+	<br>
+
+	<br>
+
+<input type="reset" value="Clear answers">
+
+</form>
+<audio id="00195" preload="auto"> 
+    <source src="http://www.pelister.org/mp3/russian/00195.mp3" type="audio/mpeg" /> 
+    <source src="http://www.pelister.org/ogg/russian/00195.ogg" type="audio/ogg" />
+</audio>
+<audio id="00169" preload="auto"> 
+    <source src="http://www.pelister.org/mp3/russian/00169.mp3" type="audio/mpeg" /> 
+    <source src="http://www.pelister.org/ogg/russian/00169.ogg" type="audio/ogg" />
+</audio>
+<audio id="00181" preload="auto"> 
+    <source src="http://www.pelister.org/mp3/russian/00181.mp3" type="audio/mpeg" /> 
+    <source src="http://www.pelister.org/ogg/russian/00181.ogg" type="audio/ogg" />
+</audio>
+<audio id="00003" preload="auto"> 
+    <source src="http://www.pelister.org/mp3/russian/00003.mp3" type="audio/mpeg" /> 
+    <source src="http://www.pelister.org/ogg/russian/00003.ogg" type="audio/ogg" />
+</audio>
+<audio id="00036" preload="auto"> 
+    <source src="http://www.pelister.org/mp3/russian/00036.mp3" type="audio/mpeg" /> 
+    <source src="http://www.pelister.org/ogg/russian/00036.ogg" type="audio/ogg" />
+</audio>
+<audio id="00074" preload="auto"> 
+    <source src="http://www.pelister.org/mp3/russian/00074.mp3" type="audio/mpeg" /> 
+    <source src="http://www.pelister.org/ogg/russian/00074.ogg" type="audio/ogg" />
+</audio>
+
+<hr>
+</body>
+</html>
